@@ -1,12 +1,12 @@
 import React from 'react'
 import Bredcom from '../../Bredcom/Main'
-import First from '../Menshop/First'
 
 function Main() {
   return (
     <>
-        <Bredcom title="Shop" subtitle="Home" subtitledown="Pricing" />
-        <First/>
+      <a href='https://rewatt.vercel.app/purchase'>
+        <Bredcom title="Go to Demo" subtitle="Home" subtitledown="Trade Center" />
+      </a>
     </>
   )
 }

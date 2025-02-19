@@ -56,9 +56,7 @@ function first() {
                                 ante quam quis urna.
                             </p>
                             <div className="slider-btn mt-30">
-                                <Link to="/Servicedeatils" className="btn ss-btn mr-15 active">
-                                Read More
-                                </Link>
+                              
                                 <Link to="/contact" className="btn ss-btn active" data-animation="fadeInRight" data-delay=".8s" tabIndex={0} >
                                 Contact Us
                                 </Link>
@@ -90,9 +88,7 @@ function first() {
                                 ante quam quis urna.
                             </p>
                             <div className="slider-btn mt-30">
-                                <Link to="/Servicedeatils" className="btn ss-btn mr-15">
-                                Read More
-                                </Link>
+        
                                 <Link to="/contact" className="btn ss-btn active" data-animation="fadeInRight" data-delay=".8s" tabIndex={0} >
                                 Contact Us
                                 </Link>

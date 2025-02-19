@@ -8,11 +8,8 @@ import Testimonials from '../Menhome/Testimonials'
 function Main() {
   return (
     <>
-        <Bredcom title="About Us" subtitle="Home" subtitledown="about"/>
+     
         <About/>
-        <Action/>
-        <Team/>
-        <Testimonials/>
     </>
   )
 }

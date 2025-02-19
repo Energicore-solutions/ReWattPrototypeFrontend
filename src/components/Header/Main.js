@@ -24,7 +24,7 @@ function Main() {
                     <div className="col-xl-2 col-lg-2">
                         <div className="logo">
                         <Link to="/">
-                            <img src='assets/img/logo/logo.png' alt="logo" />
+                            <img src='assets/img/logo/logo.png' alt="logo" className='p-2' />
                         </Link>
                         </div>
                     </div>
@@ -35,11 +35,6 @@ function Main() {
                             <li>
                                 <Link to="/">Home</Link>
                             </li>
-
-                            {/* <li>
-                                <Link to="/about">About Us</Link>
-                            </li> */}
-
                             <li>
                                 <Link to="/shop">Trade Center</Link>
                             </li>
@@ -50,12 +45,8 @@ function Main() {
                                 <Link to="/blog">Community</Link>
                             </li>
 
-                            {/* <li>
-                                <Link to="/pricing">Pricing</Link>
-                            </li> */}
-
                             <li>
-                                <Link to="/contact">Contact</Link>
+                                <Link to="/faq">FAQ</Link>
                             </li>
                           
                             </ul>
@@ -68,8 +59,8 @@ function Main() {
                         </Link>
                     </div>
                     <div className="col-xl-2 col-lg-2 text-right d-none d-lg-block mt-15 mb-15">
-                        <Link to="/" className="btn ss-btn">
-                            Log in
+                        <Link to="/contact" className="btn ss-btn">
+                          Contact
                         </Link>
                     </div>
 
@@ -83,88 +74,23 @@ function Main() {
                             {mobile &&  
                             <nav className="mean-nav">
                             <ul style={{ display : "block" }}>
-                                <li className="has-sub">
+                                <li >
                                 <Link to="/">Home</Link>
-                                { Events && 
-                                <ul style={{ display: "block" }}>
-                                    <li>
-                                    <Link to="/">Home Page 01</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/hometwo">Home Page 02</Link>
-                                    </li>
-                                </ul>
-                                }
-                                <Link className={`mean-expand ${mobile && "mean-clicked"}`} onClick={() => { setEvent(!Events) }} to="#" style={{ fontSize: 18 }}>
-                                        {Events ? "-" : "+"}
-                                </Link>
+                                
                                 </li>
                                 <li>
-                                <Link to="/about">About Us</Link>
-                                </li>
-                                <li className="has-sub">
-                                <Link to="#">Pages</Link>
-                                {News && 
-                                <ul style={{ display: "block" }}>
-                                    <li>
-                                    <Link to="/project">Project</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/projectsdetail">Project Details</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/pricing">Pricing</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/team">Team</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/faq">Faq</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/shop">Shop</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/shopdetails">Shop Details</Link>
-                                    </li>
-                                </ul>
-                                }
-                                 <Link className={`mean-expand ${mobile && "mean-clicked"}`}  onClick={() => { setNews(!News) }} to="#" style={{ fontSize: 18 }}>
-                                     {News ? "-" : "+"}
-                                 </Link>
-                                </li>
-                                <li className="has-sub">
-                                <Link to="/Service">Services</Link>
-                                {Services && 
-                                <ul style={{ display: "block" }}>
-                                    <li>
-                                    <Link to="/Service">Services</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/Servicedeatils">Services Details</Link>
-                                    </li>
-                                </ul>
-                                }
-                                 <Link className={`mean-expand ${mobile && "mean-clicked"}`}  onClick={() => { setServices(!Services) }} to="#" style={{ fontSize: 18 }}>
-                                    {Services ? "-" : "+"}
-                                 </Link>
-                                </li>
-                                <li className="has-sub">
-                                <Link to="/blog">Blog</Link>
-                                {Blog && 
-                                <ul style={{ display: "block" }}>
-                                    <li>
-                                    <Link to="/blog">Blog</Link>
-                                    </li>
-                                    <li className="mean-last">
-                                    <Link to="/blogdetails">Blog Details</Link>
-                                    </li>
-                                </ul>
-                                }
-                                <Link className={`mean-expand ${mobile && "mean-clicked"}`}  onClick={() => { setblog(!Blog) }} to="#" style={{ fontSize: 18 }}>
-                                    {Blog ? "-" : "+"}
-                                 </Link>
-                                </li>
+                                <Link to="/shop">Trade Center</Link>
+                            </li>
+                            <li>
+                                <Link to="/">ReWatt AI</Link>
+                            </li>
+                            <li>
+                                <Link to="/blog">Community</Link>
+                            </li>
+
+                            <li>
+                                <Link to="/faq">FAQ</Link>
+                            </li>
                             </ul>
                             </nav>
                             }
@@ -193,42 +119,30 @@ function Main() {
         </form>
         <div id="cssmenu3" className="menu-one-page-menu-container">
           <ul id="menu-one-page-menu-2" className="menu">
-            <li className="menu-item menu-item-type-custom menu-item-object-custom">
-              <Link to="/">Home</Link>
-            </li>
-            <li className="menu-item menu-item-type-custom menu-item-object-custom">
-              <Link to="/about">About Us</Link>
-            </li>
-            <li className="menu-item menu-item-type-custom menu-item-object-custom">
-              <Link to="/Service">Services</Link>
-            </li>
-            <li className="menu-item menu-item-type-custom menu-item-object-custom">
-              <Link to="/pricing">Pricing </Link>
-            </li>
-            <li className="menu-item menu-item-type-custom menu-item-object-custom">
-              <Link to="/team">Team </Link>
-            </li>
-            <li className="menu-item menu-item-type-custom menu-item-object-custom">
-              <Link to="/project">Gallery Study</Link>
-            </li>
-            <li className="menu-item menu-item-type-custom menu-item-object-custom">
-              <Link to="/blog">Blog</Link>
-            </li>
-            <li className="menu-item menu-item-type-custom menu-item-object-custom">
-              <Link to="/contact">Contact</Link>
-            </li>
+                                <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                                  <Link to="/">Home</Link>
+                                </li>
+                                <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                                <Link to="/shop">Trade Center</Link>
+                                </li>
+                                <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                                <Link to="/">ReWatt AI</Link>
+                                   </li>
+                                  <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                                <Link to="/blog">Community</Link>
+                                 </li>
+                                <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                                <Link to="/faq">FAQ</Link>
+                                 </li>
+
+
           </ul>
         </div>
         <div id="cssmenu2" className="menu-one-page-menu-container">
           <ul id="menu-one-page-menu-1" className="menu">
             <li className="menu-item menu-item-type-custom menu-item-object-custom">
-              <Link to="#home">
-                <span>+8 12 3456897</span>
-              </Link>
-            </li>
-            <li className="menu-item menu-item-type-custom menu-item-object-custom">
               <Link to="#howitwork">
-                <span>info@example.com</span>
+                <span>energicore2@gmail.com</span>
               </Link>
             </li>
           </ul>

@@ -33,28 +33,8 @@ function Services() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="section-title center-align mb-50 text-center">
-                <h5>OUR SERVICES</h5>
-                <h2>What We Offer</h2>
-              </div>
+           
             </div>
-          </div>
-          <div className="row services-08-item--wrapper mt-0">
-            {services.map((service) => (
-              <div className="col-lg-4 col-md-4" key={service.id}>
-                <div className="services-08-item">
-                  <div className="services-08-thumb">
-                    <i className={service.icon} />
-                  </div>
-                  <div className="services-08-content">
-                    <h3>
-                      <Link to="/Servicedeatils">{service.title}</Link>{" "}
-                    </h3>
-                    <p>{service.description}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>

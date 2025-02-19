@@ -17,18 +17,14 @@ function Slider() {
                             WELCOME{" "}
                         </h5>
                         <h2 data-animation="fadeInUp" data-delay=".4s">
-                            We Provide Solar Energy Source
+                        Save Your Energy, Trade It Smartly
                         </h2>
                         <p data-animation="fadeInUp" data-delay=".6s">
-                            Curabitur nec laoreet nulla. Mauris aliquam malesuada nibh,
-                            sodales ullamp sapien imperdiet vel. Vestibulum fringilla purus
-                            metus.
+                        Our platform rewards those who use renewable energy, while encouraging energy sharing and empowering communities. Our goal is to create a more sustainable and affordable energy future for everyone.
                         </p>
                         <div className="slider-btn mt-30">
-                            <Link to="/Service" className=" mr-15 active new-btn-edit">
-                              Read More
-                            </Link> 
-                            <Link to="/Service" className="btn ss-btn active">
+                       
+                            <Link to="/contact" className="btn ss-btn active">
                                Contact Us
                             </Link>
                         </div>
