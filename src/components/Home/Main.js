@@ -21,12 +21,12 @@ function Main() {
         <About/>
         <Services/>
         {/* <Counter/> */}
-        <Prising/>
-        <Video/>
+        {/* <Prising/> */}
+        {/* <Video/> */}
         <Team/>
-        <Testimonials/>
-        <Blog/>
-        <Footerslider/>
+        {/* <Testimonials/> */}
+        {/* <Blog/> */}
+        {/* <Footerslider/> */}
       </main>
     </>
   )
