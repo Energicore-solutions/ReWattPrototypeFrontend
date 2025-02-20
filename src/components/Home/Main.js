@@ -20,9 +20,9 @@ function Main() {
         <Slider/>
         <About/>
         <Services/>
-        {/* <Counter/> */}
-        {/* <Prising/> */}
-        {/* <Video/> */}
+        <Counter/>
+        <Prising/>
+        <Video/>
         <Team/>
         {/* <Testimonials/> */}
         {/* <Blog/> */}

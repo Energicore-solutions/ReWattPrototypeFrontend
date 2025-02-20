@@ -7,11 +7,11 @@ const plans = [
     monthlyPrice: 9,
     annualPrice: 99,
     features: [
-      'Pack Of 5 Bottles',
-      'Free Delivery Service',
-      'Free Water Fillter Cleaning',
-      'Re-Water Filling Service',
-      '24X7 Support',
+      'Discover Pages',
+      'Using Demo Applications',
+      'Buy Energy',
+      '1 chance for AI Service',
+      '24X7 Contact Opportunity'
     ],
   },
   {
@@ -19,10 +19,11 @@ const plans = [
     monthlyPrice: 18,
     annualPrice: 120,
     features: [
-      'Pack Of 5 Bottles',
-      'Free Delivery Service',
-      'Free Water Fillter Cleaning',
-      'Re-Water Filling Service',
+      'Discover Pages',
+      'Using Demo Applications',
+      'Buy Energy',
+      'Sell Energy',
+      '3 Chance for AI Service',
       '24X7 Support',
     ],
   },
@@ -31,10 +32,11 @@ const plans = [
     monthlyPrice: 49,
     annualPrice: 399,
     features: [
-      'Pack Of 5 Bottles',
-      'Free Delivery Service',
-      'Free Water Fillter Cleaning',
-      'Re-Water Filling Service',
+      'Discover Pages',
+      'Using Demo Applications',
+      'Buy Energy',
+      'Sell Energy',
+      'Limitless AI Service',
       '24X7 Support',
     ],
   },
@@ -54,25 +56,9 @@ function Pricing() {
           <div className="row">
             <div className="col-lg-12 p-relative">
               <div className="section-title center-align mb-30 text-center">
-                <h5>PRICING PLAN</h5>
-                <h2>Choose Your Plan</h2>
+                <h5>PRICING PLANS</h5>
+                <h3>Payment Plan Models Introduction</h3>
               </div>
-              <nav className="pricing-tab mb-30">
-                <span
-                  className={`monthly_tab_title ${!isAnnual ? 'active' : ''
-                    }`}
-                  onClick={() => setIsAnnual(false)}
-                >
-                  Monthly
-                </span>
-                <span className="pricing-tab-switcher"></span>
-                <span
-                  className={`annual_tab_title ${isAnnual ? 'active' : ''}`}
-                  onClick={() => setIsAnnual(true)}
-                >
-                  Annual
-                </span>
-              </nav>
             </div>
           </div>
           <div className="row">
@@ -96,7 +82,6 @@ function Pricing() {
                         <span className="subscription"> Per Annual </span>
                       </div>
                     </div>
-                    <p>Nulla scelerisque elit aliquet, volutpat lorem ac.</p>
                     <hr />
                   </div>
 

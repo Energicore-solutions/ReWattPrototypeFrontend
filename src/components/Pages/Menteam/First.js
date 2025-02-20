@@ -11,7 +11,7 @@ function First() {
                     <div className="single-team mb-30 ">
                     <div className="team-thumb">
                         <div className="brd">
-                        <img src="assets/img/team/team_img01.png" alt="img" />
+                        <img src="assets/img/team/abdullah.png" alt="img" />
                         </div>
                         <div className="social align-items-center">
                         <a href="https://www.facebook.com">

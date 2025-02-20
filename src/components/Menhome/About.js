@@ -12,7 +12,6 @@ function About() {
                     <div className="about-content s-about-content pl-30">
                     <div className="about-title second-title pb-25">
                         <h5>ABOUT US</h5>
-                        <h4>What’s Our Resources Story</h4>
                     </div>
                     <p>
                     We set out to accelerate the transition to sustainable energy and make clean energy accessible to everyone. In 2025, our team of business and software developers came together to bring you innovative energy systems solutions, a strong community network and AI support. Let's build the clean energy ecosystem of the future together!

@@ -2,10 +2,10 @@ import React from 'react';
 import NumberCounter from 'number-counter';
 
 const counterData = [
-  { count: 784, text: 'Happy Clients', imgSrc: 'assets/img/icon/cn-iocn01.png', delay: 14 },
-  { count: 987, text: 'Happy Clients', imgSrc: 'assets/img/icon/cn-iocn02.png', delay: 19 },
-  { count: 974, text: 'Employees', imgSrc: 'assets/img/icon/cn-iocn03.png', delay: 19 },
-  { count: 687, text: 'Annual Turnover', imgSrc: 'assets/img/icon/cn-iocn04.png', delay: 15 }
+  { count: 8, text: 'Happy Clients', imgSrc: 'assets/img/icon/cn-iocn01.png', delay: 1 },
+  { count: 2, text: 'Destinations', imgSrc: 'assets/img/icon/cn-iocn02.png', delay: 2 },
+  { count: 0, text: 'Contracted Companies', imgSrc: 'assets/img/icon/cn-iocn03.png', delay: 1 },
+  { count: 0, text: 'Producers', imgSrc: 'assets/img/icon/cn-iocn04.png', delay: 1 }
 ];
 
 function Counter() {

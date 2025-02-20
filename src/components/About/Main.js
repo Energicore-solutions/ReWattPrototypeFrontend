@@ -8,7 +8,6 @@ import Testimonials from '../Menhome/Testimonials'
 function Main() {
   return (
     <>
-     
         <About/>
     </>
   )

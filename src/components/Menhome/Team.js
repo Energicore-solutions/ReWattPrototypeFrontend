@@ -3,24 +3,44 @@ import { Link } from 'react-router-dom'
 
 const teamMembers = [
   {
-    name: 'Nashid Martin',
+    name: 'Abdullah Ökmen',
     role: 'Founder',
-    imgSrc: 'assets/img/team/team_img01.png',
+    imgSrc: 'assets/img/team/abdullah.png',
   },
   {
-    name: 'Konne Backfi',
-    role: 'CEO',
-    imgSrc: 'assets/img/team/team_img02.png',
+    name: 'John Bilitsos',
+    role: ' Web Developer, Cofounder',
+    imgSrc: 'assets/img/team/jhon.png',
   },
   {
-    name: 'Hackson Willi',
-    role: 'Developer',
-    imgSrc: 'assets/img/team/team_img03.png',
+    name: ' Giorgos Mavridis',
+    role: 'Business Analyst, Project Coordinator, Cofounder',
+    imgSrc: 'assets/img/team/george.png',
   },
   {
-    name: 'Dekhina Pike',
-    role: 'Founder',
-    imgSrc: 'assets/img/team/team_img04.png',
+    name: 'Sude Akgün',
+    role: 'Web Developer, Cofounder',
+    imgSrc: 'assets/img/team/Sude.png',
+  },
+  {
+    name: 'Hayrunnisa Umutlu',
+    role: 'Supervisor, Cofounder',
+    imgSrc: 'assets/img/team/hayrunnisa.png',
+  },
+  {
+    name: 'Maria Eirini Aslanidou',
+    role: 'Graphic Designer and Strategist, cofounder',
+    imgSrc: 'assets/img/team/maria.png',
+  },
+  {
+    name: 'Halil Alpak',
+    role: 'AI Developer, Cofounder',
+    imgSrc: 'assets/img/team/halil.png',
+  },
+  {
+    name: 'Giorgos Dimitropoulos ',
+    role: 'Supervisor, Cofounder',
+    imgSrc: 'assets/img/team/giorgi.png',
   },
 ];
 
@@ -51,24 +71,10 @@ function Team() {
                       <div className="brd">
                         <img src={member.imgSrc} alt="img" />
                       </div>
-                      <div className="social align-items-center">
-                        <a href="https://www.facebook.com/">
-                          <i className="fab fa-facebook-f" />
-                        </a>
-                        <a href="https://twitter.com/">
-                          <i className="fab fa-twitter" />
-                        </a>
-                        <a href="https://www.behance.net/">
-                          <i className="fab fa-behance" />
-                        </a>
-                        <a href="https://www.youtube.com/">
-                          <i className="fab fa-youtube" />
-                        </a>
-                      </div>
                     </div>
                     <div className="team-info">
                       <h4>
-                        <Link to="/teamdeatils">{member.name}</Link>
+                        <Link to="/">{member.name}</Link>
                       </h4>
                       <span>{member.role}</span>
                     </div>

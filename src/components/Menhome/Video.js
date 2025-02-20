@@ -22,46 +22,42 @@ function Video() {
                 <div className="col-lg-6 p-relative pl-70">
                     <div className="section-title">
                     <h5>WORK FLOW</h5>
-                    <h2>How We Work</h2>
+                    <h2>How System Will Work</h2>
                     </div>
                     <div className="row how-box-contaniner">
                     <div className="col-lg-6 mt-30">
                         <div className="how-box">
                         <h5>01</h5>
-                        <h3>Peak Shaving</h3>
+                        <h3>Register</h3>
                         <p>
-                            Nullam porttitorer, condimentum pharetra, tellus sapien
-                            malesuada quampulvinar efficitur justo.
+                        Create an account and choose the plan that suits you best. Take advantage of our benefits and maximize your experience. 
                         </p>
                         </div>
                     </div>
                     <div className="col-lg-6 mt-30">
                         <div className="how-box">
                         <h5>02</h5>
-                        <h3>Demand Response</h3>
+                        <h3>Trade Center</h3>
                         <p>
-                            Nullam porttitorer, condimentum pharetra, tellus sapien
-                            malesuada quampulvinar efficitur justo.
+                        You can earn by trading energy in our ecosystem and follow the market to get the best deals.
                         </p>
                         </div>
                     </div>
                     <div className="col-lg-6 mt-30">
                         <div className="how-box">
                         <h5>03</h5>
-                        <h3>Load Shifting</h3>
+                        <h3>Try AI</h3>
                         <p>
-                            Nullam porttitorer, condimentum pharetra, tellus sapien
-                            malesuada quampulvinar efficitur justo.
+                        Choose your location and watch our AI calculate how much energy you can generate based on weather forecasts!
                         </p>
                         </div>
                     </div>
                     <div className="col-lg-6 mt-30">
                         <div className="how-box">
                         <h5>04</h5>
-                        <h3>Renewable</h3>
+                        <h3>Community</h3>
                         <p>
-                            Nullam porttitorer, condimentum pharetra, tellus sapien
-                            malesuada quampulvinar efficitur justo.
+                        Join our community, ask questions and share knowledge! Share your experiences, interact with other users and stay up to date with the latest innovations!
                         </p>
                         </div>
                     </div>

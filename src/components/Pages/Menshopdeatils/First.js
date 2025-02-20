@@ -277,7 +277,7 @@ function First() {
                                     rows={10}
                                     placeholder="Write comments" defaultValue={""} />
                                 </div>
-                                <div className="slider-btn mb-70">
+                                <div className="-btn mb-70">
                                 <button className="btn ss-btn active"
                                     data-animation="fadeInRight"
                                     data-delay=".8s" >
