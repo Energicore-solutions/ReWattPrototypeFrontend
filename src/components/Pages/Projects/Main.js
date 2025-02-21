@@ -5,7 +5,7 @@ import First from '../Menprojects/First'
 function Main() {
   return (
     <>  
-        <Bredcom title="Gallery" subtitle="Home" subtitledown="Pricing"/>
+        
         <First/>
     </>
   )
