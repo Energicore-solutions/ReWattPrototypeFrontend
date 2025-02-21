@@ -10,38 +10,13 @@ function First() {
                     <div className="faq-wrap">
                     <div className="accordion" id="accordionExample">
                         <div className="card">
-                        <div className="card-header" id="headingOne">
-                            <h2 className="mb-0">
-                            <button className="faq-btn collapsed"
-                                type="button"
-                                data-toggle="collapse"
-                                data-target="#collapseOne"
-                                aria-expanded="false"
-                                aria-controls="collapseOne">
-                                Breaking The Rules Using SQLite To Demo Web?
-                            </button>
-                            </h2>
-                        </div>
-                        <div id="collapseOne"
-                            className="collapse"
-                            aria-labelledby="headingOne"
-                            data-parent="#accordionExample" style={{}} >
-                            <div className="card-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip
-                            </div>
-                        </div>
-                        </div>
-                        <div className="card">
                         <div className="card-header" id="headingTwo">
                             <h2 className="mb-0">
                             <button className="faq-btn" type="button"
                                 data-toggle="collapse"
                                 data-target="#collapseTwo"
                                 aria-expanded="true" aria-controls="collapseTwo" >
-                                Monthly Web Development Update Pragmatic Releasing?
+                                Do I need special equipment to sell my extra energy?
                             </button>
                             </h2>
                         </div>
@@ -50,58 +25,7 @@ function First() {
                             aria-labelledby="headingTwo"
                             data-parent="#accordionExample" style={{}} >
                             <div className="card-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip
-                            </div>
-                        </div>
-                        </div>
-                        <div className="card">
-                        <div className="card-header" id="headingThree">
-                            <h2 className="mb-0">
-                            <button className="faq-btn collapsed"
-                                type="button"
-                                data-toggle="collapse"
-                                data-target="#collapseThree"
-                                aria-expanded="false" aria-controls="collapseThree" >
-                                How To Use Underlined Text To Improve User Experience
-                            </button>
-                            </h2>
-                        </div>
-                        <div id="collapseThree"
-                            className="collapse"
-                            aria-labelledby="headingThree"
-                            data-parent="#accordionExample" style={{}} >
-                            <div className="card-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip
-                            </div>
-                        </div>
-                        </div>
-                        <div className="card">
-                        <div className="card-header" id="headingFour">
-                            <h2 className="mb-0">
-                            <button className="faq-btn collapsed" type="button"
-                                data-toggle="collapse"
-                                data-target="#collapseFour"
-                                aria-expanded="false"
-                                aria-controls="collapseFour" >
-                                Understanding CSS Layout And The Block Formatting
-                            </button>
-                            </h2>
-                        </div>
-                        <div id="collapseFour"
-                            className="collapse"
-                            aria-labelledby="headingFour"
-                            data-parent="#accordionExample" >
-                            <div className="card-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip
+                            Most energy systems already have the necessary components. However, a smart meter or specific agreements with your utility provider may be required.
                             </div>
                         </div>
                         </div>
@@ -112,31 +36,6 @@ function First() {
                     <div className="faq-wrap">
                     <div className="accordion" id="accordionExample1">
                         <div className="card">
-                        <div className="card-header" id="headingfive">
-                            <h2 className="mb-0">
-                            <button className="faq-btn collapsed"
-                                type="button"
-                                data-toggle="collapse"
-                                data-target="#collapsefive"
-                                aria-expanded="false" aria-controls="collapsefive" >
-                                Breaking The Rules Using SQLite To Demo Web?
-                            </button>
-                            </h2>
-                        </div>
-                        <div id="collapsefive"
-                            className="collapse"
-                            aria-labelledby="headingfive"
-                            data-parent="#accordionExample1"
-                            style={{}} >
-                            <div className="card-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip
-                            </div>
-                        </div>
-                        </div>
-                        <div className="card">
                         <div className="card-header" id="headingSix">
                             <h2 className="mb-0">
                             <button className="faq-btn"
@@ -145,7 +44,7 @@ function First() {
                                 data-target="#collapseSix"
                                 aria-expanded="true"
                                 aria-controls="collapseSix">
-                                Monthly Web Development Update Pragmatic Releasing?
+                                Who can sell energy on your platform?
                             </button>
                             </h2>
                         </div>
@@ -155,56 +54,7 @@ function First() {
                             data-parent="#accordionExample"
                             style={{}} >
                             <div className="card-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip
-                            </div>
-                        </div>
-                        </div>
-                        <div className="card">
-                        <div className="card-header" id="headingSeveen">
-                            <h2 className="mb-0">
-                            <button className="faq-btn collapsed"
-                                type="button"
-                                data-toggle="collapse"
-                                data-target="#collapseSeveen"
-                                aria-expanded="false"  aria-controls="collapseSeveen" >
-                                How To Use Underlined Text To Improve User Experience
-                            </button>
-                            </h2>
-                        </div>
-                        <div id="collapseSeveen"
-                            className="collapse"
-                            aria-labelledby="headingSeveen"
-                            data-parent="#accordionExample" style={{}} >
-                            <div className="card-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip
-                            </div>
-                        </div>
-                        </div>
-                        <div className="card">
-                        <div className="card-header" id="headingEighte">
-                            <h2 className="mb-0">
-                            <button className="faq-btn collapsed" type="button"
-                                data-toggle="collapse"
-                                data-target="#collapseEighte"
-                                aria-expanded="false" aria-controls="collapseEighte" >
-                                Understanding CSS Layout And The Block Formatting
-                            </button>
-                            </h2>
-                        </div>
-                        <div id="collapseEighte" className="collapse"
-                            aria-labelledby="headingEighte"
-                            data-parent="#accordionExample" >
-                            <div className="card-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip
+                            Anyone with surplus renewable energy, such as homeowners with solar panels or businesses generating excess power, can register as a seller.
                             </div>
                         </div>
                         </div>

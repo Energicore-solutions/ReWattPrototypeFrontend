@@ -39,7 +39,7 @@ function Main() {
                                 <Link to="/shop">Trade Center</Link>
                             </li>
                             <li>
-                                <Link to="/">ReWatt AI</Link>
+                                <Link to="/project">ReWatt AI</Link>
                             </li>
                             <li>
                                 <Link to="/blog">Community</Link>
@@ -82,7 +82,7 @@ function Main() {
                                 <Link to="/shop">Trade Center</Link>
                             </li>
                             <li>
-                                <Link to="/">ReWatt AI</Link>
+                                <Link to="/project">ReWatt AI</Link>
                             </li>
                             <li>
                                 <Link to="/blog">Community</Link>
@@ -126,7 +126,7 @@ function Main() {
                                 <Link to="/shop">Trade Center</Link>
                                 </li>
                                 <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                                <Link to="/">ReWatt AI</Link>
+                                <Link to="/project">ReWatt AI</Link>
                                    </li>
                                   <li className="menu-item menu-item-type-custom menu-item-object-custom">
                                 <Link to="/blog">Community</Link>

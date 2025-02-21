@@ -9,8 +9,11 @@ function Main({subtitle, title , subtitledown}) {
                 <div className="row align-items-center">
                 <div className="col-xl-12 col-lg-12">
                     <div className="breadcrumb-wrap text-left">
+                        
                     <div className="breadcrumb-title">
-                        <h2> { title } </h2>
+                    <a href="https://rewatt.vercel.app/forum">
+                        <h2> Go to Demo </h2>
+                        </a>
                         <div className="breadcrumb-wrap">
                         <nav aria-label="breadcrumb">
                             <ol className="breadcrumb">

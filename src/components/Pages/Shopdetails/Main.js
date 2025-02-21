@@ -5,7 +5,7 @@ function Main() {
   return (
     <>
       <a href='https://rewatt.vercel.app/purchase'>
-        <Bredcom title="Go to Demo" subtitle="Home" subtitledown="Trade Center" />
+        <Bredcom title="" subtitle="Home" subtitledown="Trade Center" />
       </a>
     </>
   )
