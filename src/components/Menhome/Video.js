@@ -11,7 +11,7 @@ function Video() {
             <div className="container">
                 <div className="row align-items-center">
                 <div className="col-lg-6">
-                    <div className="s-video-wrap" style={{ backgroundImage: "url(assets/img/bg/video-img.png)" }} >
+                    <div className="s-video-wrap" style={{ backgroundImage: "assets/img/video/vıdeoımg.png" }} >
                     <div className="s-video-content">
                         <Link to="#" className="popup-video mb-50" onClick={() => setVideo(true)}  >
                             <img src="assets/img/bg/play-button.png" alt="circle_right" onClick={() => setVideo(true)} />
@@ -75,7 +75,7 @@ function Video() {
                     <div className="mfp-content">
                         <div className="mfp-iframe-scaler">
                             <button title="Close (Esc)" type="button" className="mfp-close" onClick={() => setVideo(false)} >×</button>
-                            <iframe className="mfp-iframe" src="//www.youtube.com/embed/gyGsPlt06bo?autoplay=1" frameBorder="0" allowfullscreen=""></iframe>
+                            <iframe className="mfp-iframe" src="assets/showcase.mp4" frameBorder="0" allowfullscreen=""></iframe>
                         </div>
                         </div>
                             <div className="mfp-preloader">Loading...</div>
