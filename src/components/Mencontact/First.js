@@ -6,44 +6,8 @@ function First() {
         <section id="contact" className="contact-area after-none contact-bg pt-120 pb-120 p-relative fix" >
             <div className="container">
                 <div className="row">
-                <div className="col-lg-5">
-                    <div className="contact-info"
-                    style={{ background: "url(assets/img/bg/footer-bg.png) no-repeat", backgroundSize: "cover" }} >
-                    <div className="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s" >
-                        <div className="f-cta-icon">
-                        <i className="far fa-map" />
-                        </div>
-                        <h5>Office Address</h5>
-                        <p>
-                        380 St Kilda Road, Melbourne <br />
-                        VIC 3004, Australia
-                        </p>
-                    </div>
-                    <div className="single-cta pb-30 mb-30 wow fadeInUp animated"
-                        data-animation="fadeInDown animated" data-delay=".2s" >
-                        <div className="f-cta-icon">
-                        <i className="far fa-clock" />
-                        </div>
-                        <h5>Working Hours</h5>
-                        <p>
-                        Monday to Friday 09:00 to 18:30 and <br />
-                        Saturday we work until 15:30
-                        </p>
-                    </div>
-                    <div className="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated"
-                        data-delay=".2s" >
-                        <div className="f-cta-icon">
-                        <i className="far fa-envelope-open" />
-                        </div>
-                        <h5>Message Us</h5>
-                        <p>
-                        We are always with you to solve your problem mail us :{" "}
-                        <a href="#">support@example.com</a>
-                        </p>
-                    </div>
-                    </div>
-                </div>
-                <div className="col-lg-7">
+               
+                <div className="col-lg-12">
                     <div className="contact-bg02 wow fadeInLeft  animated">
                     <div className="section-title center-align">
                         <h5>CONTACT US</h5>

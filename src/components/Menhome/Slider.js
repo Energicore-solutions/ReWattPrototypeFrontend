@@ -22,12 +22,22 @@ function Slider() {
                         <p data-animation="fadeInUp" data-delay=".6s">
                         Our platform rewards those who use renewable energy, while encouraging energy sharing and empowering communities. Our goal is to create a more sustainable and affordable energy future for everyone.
                         </p>
-                        <div className="slider-btn mt-30">
+                     <div className='row'>
+                     <div className="slider-btn mt-30">
                        
-                            <Link to="/contact" className="btn ss-btn active">
-                               Contact Us
-                            </Link>
-                        </div>
+                       <Link to="/contact" className="btn ss-btn active">
+                          Contact Us
+                       </Link>
+                   </div>
+                   <div className="slider-btn mt-30 ml-5">
+                  
+                  <a href='https://rewatt.vercel.app'>
+                  <Link to="/" className="btn ss-btn active">
+                     Go to Demo
+                  </Link>
+                  </a>
+              </div>
+                     </div>
                         </div>
                     </div>
                     <div className="col-lg-5 col-md-5">
