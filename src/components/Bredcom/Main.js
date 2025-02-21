@@ -11,7 +11,7 @@ function Main({subtitle, title , subtitledown}) {
                     <div className="breadcrumb-wrap text-left">
                         
                     <div className="breadcrumb-title">
-                    <a href="https://rewatt.vercel.app/forum">
+                    <a href="https://rewatt.vercel.app">
                         <h2> Go to Demo </h2>
                         </a>
                         <div className="breadcrumb-wrap">
