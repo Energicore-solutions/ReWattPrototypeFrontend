@@ -5,42 +5,42 @@ const teamMembers = [
   {
     name: 'Abdullah Ökmen',
     role: 'Founder',
-    imgSrc: 'assets/img/team/abdullah.png',
+    imgSrc: './assets/img/team/abd.jpeg',
   },
   {
     name: 'John Bilitsos',
     role: ' Web Developer, Cofounder',
-    imgSrc: 'assets/img/team/jhon.png',
+    imgSrc: 'assets/img/team/john.jpeg',
   },
   {
     name: ' Giorgos Mavridis',
     role: 'Business Analyst, Project Coordinator, Cofounder',
-    imgSrc: 'assets/img/team/george.png',
+    imgSrc: 'assets/img/team/mav.jpeg',
   },
   {
     name: 'Sude Akgün',
     role: 'Web Developer, Cofounder',
-    imgSrc: 'assets/img/team/Sude.png',
+    imgSrc: 'assets/img/team/sude.jpeg',
   },
   {
     name: 'Hayrunnisa Umutlu',
     role: 'Supervisor, Cofounder',
-    imgSrc: 'assets/img/team/hayrunnisa.png',
+    imgSrc: 'assets/img/team/nısa.jpeg',
   },
   {
     name: 'Maria Eirini Aslanidou',
     role: 'Graphic Designer and Strategist, cofounder',
-    imgSrc: 'assets/img/team/maria.png',
+    imgSrc: 'assets/img/team/mar.jpeg',
   },
   {
     name: 'Halil Alpak',
     role: 'AI Developer, Cofounder',
-    imgSrc: 'assets/img/team/halil.png',
+    imgSrc: 'assets/img/team/halıl.jpeg',
   },
   {
     name: 'Giorgos Dimitropoulos ',
     role: 'Supervisor, Cofounder',
-    imgSrc: 'assets/img/team/giorgi.png',
+    imgSrc: 'assets/img/team/dım.jpeg',
   },
 ];
 

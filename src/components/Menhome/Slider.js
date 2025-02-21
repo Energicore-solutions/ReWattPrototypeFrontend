@@ -31,11 +31,9 @@ function Slider() {
                    </div>
                    <div className="slider-btn mt-30 ml-5">
                   
-                  <a href='https://rewatt.vercel.app'>
-                  <Link to="/" className="btn ss-btn active">
-                     Go to Demo
-                  </Link>
-                  </a>
+                
+                   <a href='https://rewatt.vercel.app/' className='btn ss-btn active'>Go to demo</a>
+                  
               </div>
                      </div>
                         </div>
